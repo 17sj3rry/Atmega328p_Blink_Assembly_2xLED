@@ -33,16 +33,16 @@ loop:
 			rcall delay				; Delay
 
 	ldi delay_0, Wert1
-			ldi delay_1, Wert2
-			ldi delay_2, Wert3
+	ldi delay_1, Wert2
+	ldi delay_2, Wert3
 
 	sbi PINB, LED2
 
 	rcall delay
 
 	ldi delay_0, Wert1
-			ldi delay_1, Wert2
-			ldi delay_2, Wert3
+	ldi delay_1, Wert2
+	ldi delay_2, Wert3
 
 	cbi PORTB, LED2
 		
